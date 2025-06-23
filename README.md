@@ -1,0 +1,1 @@
+This contains my tasks from NIUS camp. This specially contains code to find chi-square fitting line for a problem to estimate the value of some physical quantities.

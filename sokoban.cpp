@@ -114,6 +114,11 @@ string getHashed(const string& s) {
     return hashed;
 }
 
+/*
+To determine if a 1D sokoban game can be won or not, first identify the position of targets.
+By suitably moving e's in the active region we can check for solution.
+*/
+
 int main() {
     generateCombinations(0, "", sokobanComb);
     for (auto& c : sokobanComb) {
